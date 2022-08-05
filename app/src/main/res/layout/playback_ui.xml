@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:visibility="visible"
+    android:orientation="vertical"
+    tools:context=".PlaySongActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imgCoverArt"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/cover" />
+
+    <TextView
+        android:id="@+id/txtSongTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="410dp"
+        android:text="SongTitle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txtArtistName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="435dp"
+        android:text="ArtistName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <ImageButton
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="510dp"
+        android:background="@color/app_color"
+        android:onClick="playOrPauseMusic"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/play_icon" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="520dp"
+        android:background="@color/app_color"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/loop" />
+
+    <TextView
+        android:id="@+id/nextSongPreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="600dp"
+        android:text="Next Song Preview"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/preview1"
+        android:layout_width="367dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="640dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <ImageView
+        android:id="@+id/preview2"
+        android:layout_width="367dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="680dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <TextView
+        android:id="@+id/ronaldoPreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="642dp"
+        android:text="Ronaldo (SEWY)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="16dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/ishowspeedPreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="642dp"
+        android:text="IShowSpeed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="16dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/godisgoodPreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="682dp"
+        android:text="God Is Good"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="16dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/ishowspeedPreview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="682dp"
+        android:text="IShowSpeed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="16dp"
+        android:textStyle="italic" />
+
+    <ImageButton
+        android:id="@+id/playNext"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="520dp"
+        android:background="@color/app_color"
+        android:onClick="playNext"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/next" />
+
+    <ImageButton
+        android:id="@+id/playPrevious"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="520dp"
+        android:background="@color/app_color"
+        android:onClick="playPrevious"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/previous" />
+
+
+</RelativeLayout>

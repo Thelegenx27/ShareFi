@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:background="@color/app_color">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        android:text="Settings"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+    <ImageButton
+        android:id="@+id/backbutton1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/app_color"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/enabledisableDarkMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="180dp"
+        android:text="Dark Mode"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/settingsButton1"
+        android:layout_width="320dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="210dp"
+        android:background="@color/teal_200"
+        android:scaleType="centerCrop"
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <ImageView
+        android:id="@+id/settingsButton2"
+        android:layout_width="320dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="255dp"
+        android:background="@color/teal_200"
+        android:scaleType="centerCrop"
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <TextView
+        android:id="@+id/enableDarkMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="215dp"
+        android:text="Enabled"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/disableDarkMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="260dp"
+        android:text="Disabled"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <ImageButton
+        android:id="@+id/optionsButton1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="326dp"
+        android:layout_marginTop="257dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/options" />
+
+    <ImageButton
+        android:id="@+id/optionsButton2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="326dp"
+        android:layout_marginTop="213dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/options" />
+
+    <ImageView
+        android:id="@+id/tick1"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="333dp"
+        android:layout_marginTop="263dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/tick" />
+
+    <ImageView
+        android:id="@+id/tick2"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="333dp"
+        android:layout_marginTop="220dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/tick" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

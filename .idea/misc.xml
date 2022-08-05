@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/Desktop/School/ShareFi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.5475" />
+        <entry key="..\:/Users/Admin/Desktop/School/ShareFi/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.5475" />
+        <entry key="..\:/Users/Admin/Desktop/School/ShareFi/app/src/main/res/layout/group_play_menu.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Admin/Desktop/School/ShareFi/app/src/main/res/layout/log_in_menu.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Admin/Desktop/School/ShareFi/app/src/main/res/layout/main_menu.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Admin/Desktop/School/ShareFi/app/src/main/res/layout/playback_ui.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Admin/Desktop/School/ShareFi/app/src/main/res/layout/playlist_menu.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Admin/Desktop/School/ShareFi/app/src/main/res/layout/profile_page.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Admin/Desktop/School/ShareFi/app/src/main/res/layout/search_menu.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Admin/Desktop/School/ShareFi/app/src/main/res/layout/settings_page.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Admin/Desktop/School/ShareFi/app/src/main/res/layout/sign_up_menu.xml" value="0.5541666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

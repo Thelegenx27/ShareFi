@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:orientation="vertical"
+    tools:context=".MainMenuActivity">
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/searchmenu"
+        android:layout_width="400dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="65dp"
+        android:background="@color/teal_200"
+        android:src="@android:drawable/screen_background_light" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="370dp"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/search" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/app_color"
+        android:src="@drawable/settings" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:text="Welcome Thelegenx27"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="125dp"
+        android:text="Recommended For You"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="400dp"
+        android:text="Today's Top Hits"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25dp"
+        android:textStyle="italic"/>
+
+    <ImageView
+        android:id="@+id/ButtonUI"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="670dp"
+        android:background="@color/black"
+        android:scaleType="centerCrop"
+        android:src="@android:drawable/screen_background_light" />
+
+    <ImageButton
+        android:id="@+id/groupPlay"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="679dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/group"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="688dp" />
+
+
+    <ImageButton
+        android:id="@+id/Profile"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="679dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile" />
+
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="678dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="690dp" />
+
+    <ImageButton
+        android:id="@+id/playlist"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="673dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/playlist" />
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="150dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/The_Box"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="15dp"
+                android:background="@color/teal_200"
+                android:onClick="handleSelection"
+                android:scaleType="centerCrop"
+                android:src="@drawable/box" />
+
+            <ImageButton
+                android:id="@+id/Ronaldo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="15dp"
+                android:background="@color/teal_200"
+                android:onClick="handleSelection"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sewy" />
+
+            <ImageButton
+                android:id="@+id/godIsGood"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="15dp"
+                android:background="@color/teal_200"
+                android:onClick="handleSelection"
+                android:scaleType="centerCrop"
+                android:src="@drawable/speed" />
+
+            <TextView
+                android:id="@+id/theBoxtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-525dp"
+                android:layout_marginTop="170dp"
+                android:text="The Box"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/ronaldoSEWY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-55dp"
+                android:layout_marginTop="190dp"
+                android:text="Roddy Ricch"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/ronaldotext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="93dp"
+                android:layout_marginTop="170dp"
+                android:text="Ronaldo (SEWY)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/IshowSpeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-113dp"
+                android:layout_marginTop="190dp"
+                android:text="IShowSpeed"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/godIsGoodtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="93dp"
+                android:layout_marginTop="170dp"
+                android:text="God Is Good"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/IShowSpeed1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-85dp"
+                android:layout_marginTop="190dp"
+                android:text="IShowSpeed"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="425dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/WhatsPoppin"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="15dp"
+                android:background="@color/teal_200"
+                android:onClick="handleSelection"
+                android:scaleType="centerCrop"
+                android:src="@drawable/poppin" />
+
+            <ImageButton
+                android:id="@+id/IndustryBaby"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="15dp"
+                android:background="@color/teal_200"
+                android:onClick="handleSelection"
+                android:scaleType="centerCrop"
+                android:src="@drawable/industry" />
+
+            <ImageButton
+                android:id="@+id/whatspoppinvariousartist"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="15dp"
+                android:background="@color/teal_200"
+                android:scaleType="centerCrop"
+                android:onClick="handleSelection"
+                android:src="@drawable/poppinremix" />
+
+            <TextView
+                android:id="@+id/whatspoppintext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-525dp"
+                android:layout_marginTop="170dp"
+                android:text="What's Poppin"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/whatspoppinartist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-100dp"
+                android:layout_marginTop="190dp"
+                android:text="Jack Harlow"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/industry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="93dp"
+                android:layout_marginTop="170dp"
+                android:text="Industry Baby"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/JackHarlowAndLilNasX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-95dp"
+                android:layout_marginTop="190dp"
+                android:text="Jack Harlow &amp; Lil Nas X"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/WhatsPoppinremix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="170dp"
+                android:text="What's Poppin (Remix)"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/VariousArtists"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-155dp"
+                android:layout_marginTop="190dp"
+                android:text="Jack Harlow, Tory Lanez, Dababy, Lil Wayne"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>
+

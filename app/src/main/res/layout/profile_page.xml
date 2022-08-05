@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="@color/app_color">
+
+
+    <ImageView
+        android:id="@+id/profilepic"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="80dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/profilepic" />
+
+    <TextView
+        android:id="@+id/changePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="350dp"
+        android:text="Change Password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <ImageButton
+        android:id="@+id/nextMenuButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="353dp"
+        android:background="@color/app_color"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/gonext" />
+
+    <ImageButton
+        android:id="@+id/logoutbutton"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="450dp"
+        android:background="@color/white"
+        android:onClick="logoutofapp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="450dp"
+        android:text="Logout"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/ButtonUI2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="670dp"
+        android:background="@color/black"
+        android:scaleType="centerCrop"
+        android:src="@android:drawable/screen_background_light" />
+
+    <ImageButton
+        android:id="@+id/home2"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="678dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="690dp" />
+
+    <ImageButton
+        android:id="@+id/playlist2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="673dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/playlist" />
+
+    <ImageButton
+        android:id="@+id/groupPlay2"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="679dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/group"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="688dp" />
+
+    <ImageButton
+        android:id="@+id/Profile2"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="679dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile" />
+
+    <ImageButton
+        android:id="@+id/verifyBtn"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="530dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:srcCompat="@android:drawable/screen_background_light" />
+
+    <TextView
+        android:id="@+id/resendCode1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="533dp"
+        android:text="Verify Email"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="23dp"
+        android:textStyle="italic"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>
